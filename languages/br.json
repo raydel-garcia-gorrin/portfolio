@@ -4,6 +4,13 @@
     "description": "Mais de 3 anos de experiência em desenvolvimento web. Apaixonado por novas tecnologias e principalmente pelo ecossistema CSS e JavaScript. <br> Meu propósito é transferir minha paixão por programação para minha atuação profissional nas mais diversas situações."
   },
   "experience": {
-    "first-job-title": "Front End Developer"
+    "first-job-title": "Front End Developer",
+    "first-job-time": "Agosto de 2022 - Presente",
+    "title": "Experiência"
+  },
+  "hobbie":{
+    "first-hobbie-title": "Hobbies",
+    "first-hobbie-subtitle": "Televisão",
+    "second-hobbie-subtitle": "Praia"
   }
 }

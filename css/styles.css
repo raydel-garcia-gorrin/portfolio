@@ -37,7 +37,9 @@ body.dark {
 }
 
 .header {
+  position: fixed;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   height: 75px;
@@ -45,6 +47,14 @@ body.dark {
   background-color: var(--bg-card-color);
   transition: var(--transition);
 }
+
+
+/* @media screen and (min-width: 720px) {
+  .header{
+    position: fixed;
+    width: 100%;
+  }
+} */
 
 .switches {
   display: flex;
@@ -153,6 +163,7 @@ main {
   min-width: 320px;
   border-radius: var(--border-radius);
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .card__header {
@@ -178,6 +189,10 @@ main {
   font-size: 0.9rem;
   line-height: 1.4;
   /* text-align: justify; */
+}
+
+.hobbie__title{
+  color: var(--primary-color);
 }
 
 @media screen and (min-width: 760px) {
